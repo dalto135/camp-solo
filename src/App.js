@@ -6,6 +6,7 @@ import UpcomingEvents from './pages/upcomingevents';
 import Contactus from './pages/contactus';
 import Supportus from './pages/supportus';
 import Photogallery from './pages/photogallery';
+import Packages from './pages/packages';
 import Footer from './components/footer';
 import './style.css';
 
@@ -40,6 +41,7 @@ function App() {
       <Route exact path='/contactus' component={Contactus}></Route>
       <Route exact path='/supportus' component={Supportus}></Route>
       <Route exact path='/photogallery' component={Photogallery}></Route>
+      <Route exact path='/packages' component={Packages}></Route>
       <Footer/>
     </Router>
   );

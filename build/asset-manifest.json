@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/camp-solo/static/css/main.e6f2de0a.chunk.css",
-    "main.js": "/camp-solo/static/js/main.7097ee04.chunk.js",
-    "main.js.map": "/camp-solo/static/js/main.7097ee04.chunk.js.map",
-    "runtime-main.js": "/camp-solo/static/js/runtime-main.3968b674.js",
-    "runtime-main.js.map": "/camp-solo/static/js/runtime-main.3968b674.js.map",
+    "main.css": "/camp-solo/static/css/main.55bc5626.chunk.css",
+    "main.js": "/camp-solo/static/js/main.8e974b69.chunk.js",
+    "main.js.map": "/camp-solo/static/js/main.8e974b69.chunk.js.map",
+    "runtime-main.js": "/camp-solo/static/js/runtime-main.4f38e30c.js",
+    "runtime-main.js.map": "/camp-solo/static/js/runtime-main.4f38e30c.js.map",
     "static/js/2.24293450.chunk.js": "/camp-solo/static/js/2.24293450.chunk.js",
     "static/js/2.24293450.chunk.js.map": "/camp-solo/static/js/2.24293450.chunk.js.map",
-    "static/js/3.6da08ae7.chunk.js": "/camp-solo/static/js/3.6da08ae7.chunk.js",
-    "static/js/3.6da08ae7.chunk.js.map": "/camp-solo/static/js/3.6da08ae7.chunk.js.map",
+    "static/js/3.5ee74dcc.chunk.js": "/camp-solo/static/js/3.5ee74dcc.chunk.js",
+    "static/js/3.5ee74dcc.chunk.js.map": "/camp-solo/static/js/3.5ee74dcc.chunk.js.map",
     "index.html": "/camp-solo/index.html",
-    "static/css/main.e6f2de0a.chunk.css.map": "/camp-solo/static/css/main.e6f2de0a.chunk.css.map",
+    "static/css/main.55bc5626.chunk.css.map": "/camp-solo/static/css/main.55bc5626.chunk.css.map",
     "static/js/2.24293450.chunk.js.LICENSE.txt": "/camp-solo/static/js/2.24293450.chunk.js.LICENSE.txt",
     "static/media/camp-solo.3607d0e1.png": "/camp-solo/static/media/camp-solo.3607d0e1.png",
     "static/media/electric-forest.e85f2d95.jpg": "/camp-solo/static/media/electric-forest.e85f2d95.jpg",
-    "static/media/life-is-beautiful.17dac212.jpg": "/camp-solo/static/media/life-is-beautiful.17dac212.jpg",
+    "static/media/lightning-in-a-bottle.c76e4540.jpg": "/camp-solo/static/media/lightning-in-a-bottle.c76e4540.jpg",
     "static/media/lost-lands.c38fba42.jpg": "/camp-solo/static/media/lost-lands.c38fba42.jpg",
     "static/media/okeechobee.a70ec5c1.png": "/camp-solo/static/media/okeechobee.a70ec5c1.png",
     "static/media/header.css": "/camp-solo/static/media/solarpunk.440f6305.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3968b674.js",
+    "static/js/runtime-main.4f38e30c.js",
     "static/js/2.24293450.chunk.js",
-    "static/css/main.e6f2de0a.chunk.css",
-    "static/js/main.7097ee04.chunk.js"
+    "static/css/main.55bc5626.chunk.css",
+    "static/js/main.8e974b69.chunk.js"
   ]
 }
