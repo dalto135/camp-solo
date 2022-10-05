@@ -1,6 +1,7 @@
 import React from 'react';
 import './components.css';
 import './event.css';
+import { Link } from 'react-router-dom';
 
 function Project(props) {
     return (
@@ -8,7 +9,7 @@ function Project(props) {
             <h2>{props.title}</h2>
             <img src={props.screenshot} alt={props.title}/>
             <p>{props.description}</p>
-            <a href={props.link} className="deployedProject">Package Offers</a>
+            <Link to='/packages' className="deployedProject">Package Offers</Link>
         </div>
     );
 }
