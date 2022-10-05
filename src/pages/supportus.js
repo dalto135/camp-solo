@@ -11,12 +11,12 @@ function Supportus() {
                 </div>
 
                 <address className="pageContent" id="socialsContent">
-                    <a href="https://www.instagram.com/cmpsolo" target="_blank" rel='noreferrer'>Instagram</a>
-                    <a href="https://www.youtube.com/channel/UCFcWlVj5gBXIxgu6ZTb-VoQ/featured" target="_blank" rel='noreferrer'>YouTube</a>
                     <a href="https://www.tiktok.com/@cmpsolo?lang=en" target="_blank" rel='noreferrer'>TikTok</a>
+                    <a href="https://t.snapchat.com/MJqpeWgO" target="_blank" rel='noreferrer'>Snapchat</a>
+                    <a href="https://www.youtube.com/channel/UCFcWlVj5gBXIxgu6ZTb-VoQ/featured" target="_blank" rel='noreferrer'>YouTube</a>
                     <a href="https://www.facebook.com/profile.php?id=100086252751243" target="_blank" rel='noreferrer'>Facebook</a>
                     <a href="https://twitter.com/CmpSolo" target="_blank" rel='noreferrer'>Twitter</a>
-                    <a href="https://t.snapchat.com/MJqpeWgO" target="_blank" rel='noreferrer'>Snapchat</a>
+                    <a href="https://www.instagram.com/cmpsolo" target="_blank" rel='noreferrer'>Instagram</a>
                 </address>
             </section>
 
