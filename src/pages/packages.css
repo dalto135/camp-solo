@@ -1,3 +1,8 @@
 #package1Content p, #package2Content p, #package3Content p {
     border: None;
 }
+
+#checkout div{
+    display: flex;
+    justify-content: center;
+}

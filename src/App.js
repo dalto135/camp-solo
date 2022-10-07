@@ -7,6 +7,8 @@ import Contactus from './pages/contactus';
 import Supportus from './pages/supportus';
 import Photogallery from './pages/photogallery';
 import Packages from './pages/packages';
+import Checkout from './pages/checkout';
+import Confirmation from './pages/confirmation';
 import Footer from './components/footer';
 import './style.css';
 
@@ -42,6 +44,8 @@ function App() {
       <Route exact path='/supportus' component={Supportus}></Route>
       <Route exact path='/photogallery' component={Photogallery}></Route>
       <Route exact path='/packages' component={Packages}></Route>
+      <Route exact path='/checkout' component={Checkout}></Route>
+      <Route exact path='/confirmation' component={Confirmation}></Route>
       <Footer/>
     </Router>
   );

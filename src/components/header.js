@@ -22,9 +22,9 @@ function Header({toggleTheme}) {
                     <Link to='/photogallery'>Photo Gallery</Link>
                 </div>
 
-                <div id="lightDark">
+                {/* <div id="lightDark">
                     <button onClick={toggleTheme} id="lightDarkButton">Light/Dark Mode</button>
-                </div>
+                </div> */}
             </header>
         </div>
     );

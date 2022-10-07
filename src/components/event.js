@@ -3,7 +3,7 @@ import './components.css';
 import './event.css';
 import { Link } from 'react-router-dom';
 
-function Project(props) {
+function Event(props) {
     return (
         <div className="project">
             <h2>{props.title}</h2>
@@ -14,4 +14,4 @@ function Project(props) {
     );
 }
 
-export default Project;
+export default Event;
