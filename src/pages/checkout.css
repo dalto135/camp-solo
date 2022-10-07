@@ -3,13 +3,17 @@
     flex-direction: column;
 }
 
+form {
+    border: None;
+}
+
 label {
     color: var(--textColor);
     border: None;
 }
 
-form {
-    border: None;
+input {
+    border-radius: 0px;
 }
 
 #next {

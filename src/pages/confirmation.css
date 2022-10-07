@@ -2,3 +2,7 @@
     display: flex;
     justify-content: center;
 }
+
+#enterDetailsContent p {
+    border: None;
+}

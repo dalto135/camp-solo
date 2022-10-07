@@ -24,90 +24,39 @@ function Confirmation() {
                 </div>
 
                 <div className="pageContent" id="enterDetailsContent">
-                    <form>
-                        <label>Festival:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Festival: {localStorage.getItem("festival")}</p>
 
-                    <form>
-                        <label>Package:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Packages: {localStorage.getItem("packages")}</p>
 
-                    <form>
-                        <label>Addons:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Addons: {localStorage.getItem("addons")}</p>
 
-                    <form>
-                        <label>Layaway Plan:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Layaway Plans: {localStorage.getItem("layawayPlans")}</p>
 
-                    <form>
-                        <label>Shipping Address:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Shipping Address: {localStorage.getItem("shippingAddress")}</p>
 
-                    <form>
-                        <label>Billing Address:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Billing Address: {localStorage.getItem("billingAddress")}</p>
 
-                    <form>
-                        <label>Email:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Email: {localStorage.getItem("email")}</p>
 
-                    <form>
-                        <label>Phone Number:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Phone Number: {localStorage.getItem("phoneNumber")}</p>
 
-                    <form>
-                        <label>Preferred method of contact:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Preferred method of contact: {localStorage.getItem("preferredContact")}</p>
 
-                    <form>
-                        <label>ETA:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>ETA: {localStorage.getItem("ETA")}</p>
 
-                    <form>
-                        <label>Food Allergies:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Food Allergies: {localStorage.getItem("foodAllergies")}</p>
 
-                    <form>
-                        <label>Sexual Orientation:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Sexual Orientation: {localStorage.getItem("sexualOrientation")}</p>
 
-                    <form>
-                        <label>Preferred pronouns or name:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Preferred pronouns or name: {localStorage.getItem("pronounsOrName")}</p>
 
-                    <form>
-                        <label>Traumatic Triggers & what helps calm them down if trauma triggers happen:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Traumatic Triggers & what helps calm them down if trauma triggers happen: {localStorage.getItem("triggersAndHelp")}</p>
 
-                    <form>
-                        <label>Medical Conditions and Emergency Response needed for medical emergencies:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Medical Conditions and Emergency Response needed for medical emergencies: {localStorage.getItem("medicalAndResponse")}</p>
 
-                    <form>
-                        <label>Talents, Skills, or Other that they would like to contribute to the CAMP SOLO experience:</label>
-                        <input type="text"/>
-                    </form>
-
-                    <form>
-                        <label>Optional extra donation amount:</label>
-                        <input type="text"/>
-                    </form>
+                    <p>Talents, Skills, or Other that they would like to contribute to the CAMP SOLO experience: {localStorage.getItem("talentsAndSkills")}</p>
+                    
+                    <p>Optional extra donation amount: {localStorage.getItem("donationAmount")}</p>
                 </div>
             </section>
 
