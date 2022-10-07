@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/camp-solo/static/css/main.9d2861de.chunk.css",
-    "main.js": "/camp-solo/static/js/main.a12b2288.chunk.js",
-    "main.js.map": "/camp-solo/static/js/main.a12b2288.chunk.js.map",
+    "main.css": "/camp-solo/static/css/main.190e57e4.chunk.css",
+    "main.js": "/camp-solo/static/js/main.01f0906d.chunk.js",
+    "main.js.map": "/camp-solo/static/js/main.01f0906d.chunk.js.map",
     "runtime-main.js": "/camp-solo/static/js/runtime-main.78a38e30.js",
     "runtime-main.js.map": "/camp-solo/static/js/runtime-main.78a38e30.js.map",
     "static/js/2.ebce4072.chunk.js": "/camp-solo/static/js/2.ebce4072.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.95ba76a1.chunk.js": "/camp-solo/static/js/3.95ba76a1.chunk.js",
     "static/js/3.95ba76a1.chunk.js.map": "/camp-solo/static/js/3.95ba76a1.chunk.js.map",
     "index.html": "/camp-solo/index.html",
-    "static/css/main.9d2861de.chunk.css.map": "/camp-solo/static/css/main.9d2861de.chunk.css.map",
+    "static/css/main.190e57e4.chunk.css.map": "/camp-solo/static/css/main.190e57e4.chunk.css.map",
     "static/js/2.ebce4072.chunk.js.LICENSE.txt": "/camp-solo/static/js/2.ebce4072.chunk.js.LICENSE.txt",
     "static/media/camp-solo.3607d0e1.png": "/camp-solo/static/media/camp-solo.3607d0e1.png",
     "static/media/electric-forest.e85f2d95.jpg": "/camp-solo/static/media/electric-forest.e85f2d95.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.78a38e30.js",
     "static/js/2.ebce4072.chunk.js",
-    "static/css/main.9d2861de.chunk.css",
-    "static/js/main.a12b2288.chunk.js"
+    "static/css/main.190e57e4.chunk.css",
+    "static/js/main.01f0906d.chunk.js"
   ]
 }
