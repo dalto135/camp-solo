@@ -1,21 +1,28 @@
 import React from 'react';
-import Project from '../components/event';
+import Event from '../components/event';
 import './pages.css';
 import './upcomingevents.css';
 
 import Okeechobee from '../assets/images/okeechobee.png';
+import BeyondWonderland from '../assets/images/beyond-wonderland.jpeg';
 import LightningInABottle from '../assets/images/lightning-in-a-bottle.jpg';
 import ElectricForest from '../assets/images/electric-forest.jpg';
 import LostLands from '../assets/images/lost-lands.jpg';
 
 function Upcomingevents() {
 
-    let projects = [
+    let events = [
         {
             title: 'Okeechobee 2023',
             link: '../pages/packages',
             screenshot: Okeechobee,
             description: 'The Okeechobee Music and Arts Festival is an annual four-day music and arts festival. It is held at the 600-acre Sunshine Grove property in Okeechobee, Florida.',
+        },
+        {
+            title: 'Beyond Wonderland 2023',
+            link: '../pages/packages',
+            screenshot: BeyondWonderland,
+            description: 'Beyond Wonderland is an electronic dance festival organized by Insomniac Events. The event has been held in various locations across the west coast including Seattle, San Bernardino, and Mountain View spanning either one or two days.',
         },
         {
             title: 'Lightning in a Bottle 2023',
@@ -45,25 +52,32 @@ function Upcomingevents() {
             
             <div className="pageContent" id="projectsContent">
 
-                {/* {projects.map((project, i) => 
-                    <Project key={i} title={project.title} link={project.link} screenshot={project.screenshot} description={project.description}/>
+                {/* {events.map((Event, i) => 
+                    <Event key={i} title={Event.title} link={Event.link} screenshot={Event.screenshot} description={Event.description}/>
                 )} */}
                 
-                {/* Row one projects */}
+                {/* Row one events */}
                 <div className="projectRow">
 
-                    <Project title={projects[0].title} link={projects[0].link} screenshot={projects[0].screenshot} description={projects[0].description}/>
+                    <Event title={events[0].title} link={events[0].link} screenshot={events[0].screenshot} description={events[0].description}/>
 
-                    <Project title={projects[1].title} link={projects[1].link} screenshot={projects[1].screenshot} description={projects[1].description}/>
+                    <Event title={events[1].title} link={events[1].link} screenshot={events[1].screenshot} description={events[1].description}/>
 
                 </div>
                 
-                {/* Row two projects */}
+                {/* Row two events */}
                 <div className="projectRow">
 
-                    <Project title={projects[2].title} link={projects[2].link} screenshot={projects[2].screenshot} description={projects[2].description}/>
+                    <Event title={events[2].title} link={events[2].link} screenshot={events[2].screenshot} description={events[2].description}/>
 
-                    <Project title={projects[3].title} link={projects[3].link} screenshot={projects[3].screenshot} description={projects[3].description}/>
+                    <Event title={events[3].title} link={events[3].link} screenshot={events[3].screenshot} description={events[3].description}/>
+
+                </div>
+
+                {/* Row three events */}
+                <div className="projectRow">
+
+                    <Event title={events[4].title} link={events[4].link} screenshot={events[4].screenshot} description={events[4].description}/>
 
                 </div>
             </div>

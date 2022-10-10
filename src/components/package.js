@@ -9,27 +9,31 @@ function Package(props) {
             <h2>{props.title}</h2>
             {/* <img src={props.screenshot} alt={props.title}/> */}
             {/* <p>{props.description}</p> */}
-            <ul>
-                <li>{props.cost}</li>
-                <li>{props.included}</li>
-                <li>{props.layaway}</li>
-                <li>
-                    {props.addons.length ? (
-                        props.addons.map((addon) => {
-                            return (
-                                <form>
-                                    <label>{addon}</label>
-                                    <input type="checkbox"/>
-                                </form>
-                            );
-                        })
-                    ) : (
-                        <h3>No Addons to Display</h3>
-                    )}
-                </li>
-            </ul>
-            {/* <Link to='/packages' className="deployedProject">Package Offers</Link> */}
-            <button>Add to Cart</button>
+            <section className="info">
+                <p>{props.cost}</p>
+                <p>{props.included}</p>
+                <p>{props.layaway}</p>
+            </section>
+                
+            <section className="addons">
+                {props.addons.length ? (
+                    props.addons.map((addon) => {
+                        return (
+                            <form>
+                                <label>{addon}</label>
+                                <input type="checkbox"/>
+                            </form>
+                        );
+                    })
+                ) : (
+                    <h3>No Addons to Display</h3>
+                )}
+            </section>
+
+            <div className="addToCart">
+                <button>Add to Cart</button>
+            </div>
+            
         </div>
     );
 }

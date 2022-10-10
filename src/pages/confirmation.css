@@ -6,3 +6,15 @@
 #enterDetailsContent p {
     border: None;
 }
+
+.content {
+    font-weight: bold;
+    color: white;
+}
+
+span {
+    display: flex;
+    border: None;
+    padding: 0px;
+    margin: 0px;
+}

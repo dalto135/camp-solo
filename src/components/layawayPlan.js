@@ -1,20 +1,21 @@
 import React from 'react';
 import './components.css';
-import './package.css';
+import './layawayPlan.css';
 // import { Link } from 'react-router-dom';
 
 function Package(props) {
     return (
-        <div className="package">
+        <div className="layawayPlan">
             <h2>{props.title}</h2>
-            {/* <img src={props.screenshot} alt={props.title}/> */}
-            {/* <p>{props.description}</p> */}
-            <ul>
-                <li>{props.downPayment}</li>
-                <li>{props.monthlyPaymentSchedule}</li>
-            </ul>
-            {/* <Link to='/packages' className="deployedProject">Package Offers</Link> */}
-            <button>Add to Cart</button>
+
+            <section className="info">
+                <p>{props.downPayment}</p>
+                <p>{props.monthlyPaymentSchedule}</p>
+            </section>
+
+            <div className="addToCart">
+                <button>Add to Cart</button>
+            </div>
         </div>
     );
 }

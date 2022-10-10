@@ -15,8 +15,7 @@ function Packages() {
             addons: [
                 "Addon 1",
                 "Addon 2",
-                "Addon 3",
-                "Addon 4"
+                "Addon 3"
             ]
         },
         {
@@ -27,8 +26,7 @@ function Packages() {
             addons: [
                 "Addon 1",
                 "Addon 2",
-                "Addon 3",
-                "Addon 4"
+                "Addon 3"
             ]
         },
         {
@@ -39,8 +37,7 @@ function Packages() {
             addons: [
                 "Addon 1",
                 "Addon 2",
-                "Addon 3",
-                "Addon 4"
+                "Addon 3"
             ]
         },
         {
@@ -51,8 +48,7 @@ function Packages() {
             addons: [
                 "Addon 1",
                 "Addon 2",
-                "Addon 3",
-                "Addon 4"
+                "Addon 3"
             ]
         },
         {
@@ -63,8 +59,7 @@ function Packages() {
             addons: [
                 "Addon 1",
                 "Addon 2",
-                "Addon 3",
-                "Addon 4"
+                "Addon 3"
             ]
         }
     ];
@@ -101,7 +96,7 @@ function Packages() {
 
                     </div>
 
-                    {/* Row two packages */}
+                    {/* Row three packages */}
                     <div className="projectRow">
 
                         <Package title={packages[4].title} cost={packages[4].cost} included={packages[4].included} layaway={packages[4].layaway} addons={packages[4].addons}/>

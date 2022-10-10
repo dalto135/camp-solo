@@ -216,7 +216,7 @@ function Checkout() {
                 </div> */}
 
                 <div className="pageContent" id="next">
-                    <Link to='/confirmation' className="deployedProject" id="checkoutLink" onClick={enterDetails}>Next</Link>
+                    <Link to='/confirmation#html' className="deployedProject" id="checkoutLink" onClick={enterDetails}>Next</Link>
                 </div>
             </section>
         </div>

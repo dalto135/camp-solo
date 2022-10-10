@@ -20,6 +20,7 @@ function Header({toggleTheme}) {
                     <Link to='/contactus'>Contact Us</Link>
                     <Link to='/supportus'>Support Us</Link>
                     <Link to='/photogallery'>Photo Gallery</Link>
+                    <Link to='/checkout'>Your Cart</Link>
                 </div>
 
                 {/* <div id="lightDark">

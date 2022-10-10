@@ -1,4 +1,4 @@
-.project {
+.event {
     justify-content: flex-end;
     border: 1px solid var(--cloudy);
     display: flex;
@@ -6,13 +6,14 @@
     margin: 0px 3px;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.125);
+    max-width: 50%;
 }
 
-#light .project {
+#light .event {
     background-color: rgba(120, 138, 143, 0.188);
 }
 
-.project p {
+.event p {
     height: 180px;
     overflow: scroll;
     border-radius: 0px;
@@ -22,11 +23,11 @@
     padding: 6px;
 }
 
-.project a {
+.event a {
     font-size: 24pt;
 }
 
-.project img {
+.event img {
     max-width: 100%;
     flex: 1 1;
     padding: 0;
@@ -36,7 +37,7 @@
     border-color: var(--cloudy);
 }
 
-#light .project, #light .project p, #light .project img {
+#light .event, #light .event p, #light .event img {
     border-color: var(--cloudyBorderLightMode);
 }
 
@@ -77,16 +78,17 @@
 }
 
 @media screen and (max-width: 768px) {
-    .project {
+    .event {
         margin: 6px 3px;
         justify-content: center;
+        max-width: None;
     }
 
-    .project p {
+    .event p {
         height: 120px;
     }
 
-    .project a {
+    .event a {
         font-size: 16pt;
     }
 }

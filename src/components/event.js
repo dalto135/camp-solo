@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Event(props) {
     return (
-        <div className="project">
+        <div className="event">
             <h2>{props.title}</h2>
             <img src={props.screenshot} alt={props.title}/>
             <p>{props.description}</p>

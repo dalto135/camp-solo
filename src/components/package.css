@@ -9,24 +9,38 @@
     margin: 0px 3px;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.125);
-    /* max-width: 500px; */
+    max-width: 50%;
 }
 
 #light .package {
     background-color: rgba(120, 138, 143, 0.188);
 }
 
+.info, .addons {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    border-color: var(--cloudy);
+    border-width: 0px 0px 1px 0px;
+    margin: 0px;
+}
+
+.addToCart {
+    padding: 6px 6px 0px 6px;
+}
+
 .package h2 {
-    color: var(--textColor);
-    border: None;
+    color: white;
+    border-radius: 0px;
+    border-color: var(--cloudy);
+    border-width: 0px 0px 1px 0px;
+    margin: 0px;
+    padding: 6px;
 }
 
 .package p {
-    height: 180px;
     overflow: scroll;
-    border-radius: 0px;
-    border-color: var(--cloudy);
-    border-width: 1px 0px 0px 0px;
+    border: None;
     margin: 0px;
     padding: 6px;
 }
@@ -105,10 +119,7 @@
     .package {
         margin: 6px 3px;
         justify-content: center;
-    }
-
-    .package p {
-        height: 120px;
+        max-width: None;
     }
 
     .package a {

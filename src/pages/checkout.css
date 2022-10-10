@@ -1,6 +1,11 @@
 #enterDetailsContent {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+}
+
+.projectRow {
+    justify-content: center;
 }
 
 form {
