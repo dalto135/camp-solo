@@ -13,7 +13,6 @@
 }
 
 .layawayPlan .info {
-    height: 180px;
     border-width: 0px 0px 1px 0px;
     border-radius: 0px;
     border-color: var(--cloudy);
@@ -118,10 +117,6 @@
         margin: 6px 3px;
         justify-content: center;
         max-width: None;
-    }
-
-    .layawayPlan .info {
-        height: 120px;
     }
 
     .layawayPlan a {
