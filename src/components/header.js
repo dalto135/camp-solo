@@ -16,7 +16,7 @@ function Header({toggleTheme}) {
 
                 <div id="shortcuts">
                     <Link to='/'>Home</Link>
-                    <Link to='/upcomingevents'>Upcoming Events</Link>
+                    <Link to='/aboutus'>About Us</Link>
                     <Link to='/contactus'>Contact Us</Link>
                     <Link to='/supportus'>Support Us</Link>
                     <Link to='/photogallery'>Photo Gallery</Link>

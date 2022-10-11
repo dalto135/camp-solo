@@ -12,7 +12,6 @@ function Package(props) {
             <section className="info">
                 <p>{props.cost}</p>
                 <p>{props.included}</p>
-                <p>{props.layaway}</p>
             </section>
                 
             <section className="addons">

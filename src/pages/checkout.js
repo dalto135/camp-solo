@@ -6,46 +6,46 @@ import LayawayPlan from '../components/layawayPlan';
 
 function Checkout() {
 
-    function enterDetails() {
-        let shippingAddress = document.querySelector("#shippingAddress");
-        localStorage.setItem("shippingAddress", shippingAddress.value);
+    // function enterDetails() {
+    //     let shippingAddress = document.querySelector("#shippingAddress");
+    //     localStorage.setItem("shippingAddress", shippingAddress.value);
 
-        let billingAddress = document.querySelector("#billingAddress");
-        localStorage.setItem("billingAddress", billingAddress.value);
+    //     let billingAddress = document.querySelector("#billingAddress");
+    //     localStorage.setItem("billingAddress", billingAddress.value);
 
-        let email = document.querySelector("#email");
-        localStorage.setItem("email", email.value);
+    //     let email = document.querySelector("#email");
+    //     localStorage.setItem("email", email.value);
 
-        let phoneNumber = document.querySelector("#phoneNumber");
-        localStorage.setItem("phoneNumber", phoneNumber.value);
+    //     let phoneNumber = document.querySelector("#phoneNumber");
+    //     localStorage.setItem("phoneNumber", phoneNumber.value);
 
-        let preferredContact = document.querySelector("#preferredContact");
-        localStorage.setItem("preferredContact", preferredContact.value);
+    //     let preferredContact = document.querySelector("#preferredContact");
+    //     localStorage.setItem("preferredContact", preferredContact.value);
 
-        let ETA = document.querySelector("#ETA");
-        localStorage.setItem("ETA", ETA.value);
+    //     let ETA = document.querySelector("#ETA");
+    //     localStorage.setItem("ETA", ETA.value);
 
-        let foodAllergies = document.querySelector("#foodAllergies");
-        localStorage.setItem("foodAllergies", foodAllergies.value);
+    //     let foodAllergies = document.querySelector("#foodAllergies");
+    //     localStorage.setItem("foodAllergies", foodAllergies.value);
 
-        let sexualOrientation = document.querySelector("#sexualOrientation");
-        localStorage.setItem("sexualOrientation", sexualOrientation.value);
+    //     let sexualOrientation = document.querySelector("#sexualOrientation");
+    //     localStorage.setItem("sexualOrientation", sexualOrientation.value);
 
-        let pronounsOrName = document.querySelector("#pronounsOrName");
-        localStorage.setItem("pronounsOrName", pronounsOrName.value);
+    //     let pronounsOrName = document.querySelector("#pronounsOrName");
+    //     localStorage.setItem("pronounsOrName", pronounsOrName.value);
 
-        let triggersAndHelp = document.querySelector("#triggersAndHelp");
-        localStorage.setItem("triggersAndHelp", triggersAndHelp.value);
+    //     let triggersAndHelp = document.querySelector("#triggersAndHelp");
+    //     localStorage.setItem("triggersAndHelp", triggersAndHelp.value);
 
-        let medicalAndResponse = document.querySelector("#medicalAndResponse");
-        localStorage.setItem("medicalAndResponse", medicalAndResponse.value);
+    //     let medicalAndResponse = document.querySelector("#medicalAndResponse");
+    //     localStorage.setItem("medicalAndResponse", medicalAndResponse.value);
 
-        let talentsAndSkills = document.querySelector("#talentsAndSkills");
-        localStorage.setItem("talentsAndSkills", talentsAndSkills.value);
+    //     let talentsAndSkills = document.querySelector("#talentsAndSkills");
+    //     localStorage.setItem("talentsAndSkills", talentsAndSkills.value);
 
-        let donationAmount = document.querySelector("#donationAmount");
-        localStorage.setItem("donationAmount", donationAmount.value);
-    }
+    //     let donationAmount = document.querySelector("#donationAmount");
+    //     localStorage.setItem("donationAmount", donationAmount.value);
+    // }
 
     let layawayPlans = [
         {
@@ -87,7 +87,7 @@ function Checkout() {
                 </div>
             </section>
 
-            <section className="page" id="aboutUs">
+            {/* <section className="page" id="aboutUs">
                 <div className="pageTitle" id="aboutUsTitle">
                     <h1>Choose payment method</h1>
                 </div>
@@ -170,7 +170,7 @@ function Checkout() {
                         <input type="text" id="donationAmount"/>
                     </form>
                 </div>
-            </section>
+            </section> */}
 
             <section className="page" id="packages">
                 <div className="pageTitle" id="packagesTitle">
@@ -216,7 +216,7 @@ function Checkout() {
                 </div> */}
 
                 <div className="pageContent" id="next">
-                    <Link to='/confirmation#html' className="deployedProject" id="checkoutLink" onClick={enterDetails}>Next</Link>
+                    <Link to='/confirmation' className="deployedProject" id="checkoutLink">Next</Link>
                 </div>
             </section>
         </div>

@@ -4,6 +4,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: 3px;
+    justify-content: center;
 }
 
 #light footer {

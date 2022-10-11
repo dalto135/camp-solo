@@ -9,7 +9,7 @@ function Event(props) {
             <h2>{props.title}</h2>
             <img src={props.screenshot} alt={props.title}/>
             <p>{props.description}</p>
-            <Link to='/packages' className="deployedProject" onClick={localStorage.setItem("festival", props.title)}>Package Offers</Link>
+            <Link to={props.link} className="deployedProject">Package Offers</Link>
         </div>
     );
 }

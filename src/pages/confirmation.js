@@ -12,7 +12,10 @@ function Confirmation() {
                 </div>
 
                 <div className="pageContent" id="enterDetailsContent">
-                    <span>
+
+                    <p>Your cart</p>
+                    <p>Layaway plan</p>
+                    {/* <span>
                         <p>Festival: </p><p className="content">{localStorage.getItem("festival")}</p>
                     </span>
                     
@@ -78,7 +81,7 @@ function Confirmation() {
 
                     <span>
                         <p>Optional extra donation amount: </p><p className="content">{localStorage.getItem("donationAmount")}</p>
-                    </span>
+                    </span> */}
                 </div>
             </section>
 

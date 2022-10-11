@@ -5,9 +5,7 @@ import './footer.css';
 function Footer() {
     return (
         <footer>
-            <a href='https://www.google.com' target="_blank" rel='noreferrer'>
-                Made possible by Asthetix
-            </a>
+            <p>Made possible by Asthetix</p>
         </footer>
     );
 }
