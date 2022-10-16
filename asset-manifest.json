@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/camp-solo/static/css/main.0bf20795.chunk.css",
-    "main.js": "/camp-solo/static/js/main.7ef05342.chunk.js",
-    "main.js.map": "/camp-solo/static/js/main.7ef05342.chunk.js.map",
+    "main.js": "/camp-solo/static/js/main.e9b77270.chunk.js",
+    "main.js.map": "/camp-solo/static/js/main.e9b77270.chunk.js.map",
     "runtime-main.js": "/camp-solo/static/js/runtime-main.16db4ca0.js",
     "runtime-main.js.map": "/camp-solo/static/js/runtime-main.16db4ca0.js.map",
     "static/js/2.f9effda8.chunk.js": "/camp-solo/static/js/2.f9effda8.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.16db4ca0.js",
     "static/js/2.f9effda8.chunk.js",
     "static/css/main.0bf20795.chunk.css",
-    "static/js/main.7ef05342.chunk.js"
+    "static/js/main.e9b77270.chunk.js"
   ]
 }
