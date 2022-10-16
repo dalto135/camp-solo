@@ -124,7 +124,8 @@ function Signup() {
                     <button className='material-button' 
                     // onClick={handleFormSubmit} 
                     >Sign Up</button>
-                    <p>Already have an account? <Link to= './login'>Log In</Link></p>
+                    <p>Already have an account?</p>
+                    <Link to= './login'>Log In</Link>
                 </form>
             </div>
         </div>
