@@ -48,6 +48,7 @@ function Header({toggleTheme}) {
                         <button onClick={logOut(loggedIn)}>Log out</button>
                         <Link to='/userpage'>Account</Link>
                     </div>}
+                    <Link to='/userpage'>My Account</Link>
                 </div>
 
                 {/* <div id="lightDark">
