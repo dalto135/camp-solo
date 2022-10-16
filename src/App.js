@@ -13,6 +13,9 @@ import ElectricForestPackages from './pages/electricForestPackages';
 import LostLandsPackages from './pages/lostLandsPackages';
 import Checkout from './pages/checkout';
 import Confirmation from './pages/confirmation';
+import Login from './pages/login';
+import Signup from './pages/signup';
+import Userpage from './pages/userPage';
 import Footer from './components/footer';
 import './style.css';
 
@@ -53,6 +56,9 @@ function App() {
       <Route exact path='/electric-forest-packages' component={ElectricForestPackages}></Route>
       <Route exact path='/lost-lands-packages' component={LostLandsPackages}></Route>
       <Route exact path='/checkout' component={Checkout}></Route>
+      <Route exact path='/login' component={Login}></Route>
+      <Route exact path='/signup' component={Signup}></Route>
+      <Route exact path='/userpage' component={Userpage}></Route>
       <Route exact path='/confirmation' component={Confirmation}></Route>
       <Footer/>
     </Router>

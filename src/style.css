@@ -132,6 +132,10 @@ a:hover, button:hover {
     background-image: var(--linkGradient);
 }
 
+a:active, button:active {
+    background-image: None;
+}
+
 #titleLogo:hover {
     background-image: None;
 }

@@ -1,0 +1,135 @@
+.cartItem {
+    justify-content: flex-end;
+    border: 1px solid var(--cloudy);
+    flex-wrap: wrap;
+    margin: 6px 3px 0px 3px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.125);
+    max-width: 50%;
+}
+
+#light .cartItem {
+    background-color: rgba(120, 138, 143, 0.188);
+}
+
+.cartItem .info {
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px;
+    border-color: var(--cloudy);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItem h2 {
+    color: white;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px;
+    border-color: var(--cloudy);
+    margin: 0px;
+    padding: 6px;
+}
+
+.cartItem p {
+    overflow: scroll;
+    border-radius: 0px;
+    border: None;
+    margin: 0px;
+    padding: 6px;
+}
+
+/* .cartItem a {
+    font-size: 24pt;
+} */
+
+/* .cartItem img {
+    max-width: 100%;
+    flex: 1 1;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+    border-width: 1px 0px 0px 0px;
+    border-color: var(--cloudy);
+} */
+
+/* .cartItem ul {
+    border-width: 1px 0px 0px 0px;
+    border-radius: 0px;
+    border-color: var(--cloudy);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.cartItem li {
+    color: var(--cloudy);
+    border: None;
+} */
+
+.addToCart {
+    padding: 6px 3px 0px 3px;
+}
+
+#light .cartItem, #light .cartItem p, #light .cartItem img {
+    border-color: var(--cloudyBorderLightMode);
+}
+
+/* .deployedProject {
+    background-color: var(--pastelBlue);
+    margin: 6px 3px 6px 6px;
+    text-align: center;
+    display: flex;
+} */
+
+/* #light .deployedProject {
+    background-color: var(--pastelBlue);
+} */
+
+/* .deployedProject:hover {
+    background-image: var(--blueGradient);
+} */
+
+/* #light .deployedProject:hover {
+    background-image: var(--blueGradientLightMode);
+} */
+
+/* .github {
+    background-color: var(--pastelGreen);
+    margin: 6px 6px 6px 3px;
+}
+
+#light .github {
+    background-color: var(--pastelGreen);
+}
+
+.github:hover {
+    background-image: var(--greenGradient);
+}
+
+#light .github:hover {
+    background-image: var(--greenGradientLightMode);
+} */
+
+@media screen and (max-width: 768px) {
+    .cartItem {
+        margin: 6px 3px;
+        justify-content: center;
+        max-width: None;
+    }
+
+    .cartItem a {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 296px) {
+    .deployedProject {
+        margin: 6px;
+    }
+
+    .github {
+        margin: 0px 6px 6px 6px;
+    }
+}

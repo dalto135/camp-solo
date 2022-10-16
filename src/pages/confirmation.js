@@ -2,6 +2,7 @@ import React from 'react';
 import './pages.css';
 import './confirmation.css';
 import { Link } from 'react-router-dom';
+import CartItem from '../components/cartItem';
 
 function Confirmation() {
     return (
@@ -12,8 +13,17 @@ function Confirmation() {
                 </div>
 
                 <div className="pageContent" id="enterDetailsContent">
-
-                    <p>Your cart</p>
+                    <div className="pageContent" id="aboutUsContent">
+                        {JSON.parse(localStorage.getItem("cart"))?.length ? (
+                            JSON.parse(localStorage.getItem("cart")).map((cartItem) => {
+                                return (
+                                    <CartItem festival={cartItem.festival} package={cartItem.package} addons={cartItem.addons}/>
+                                );
+                            })
+                        ) : (
+                            <p>Your Cart is Empty</p>
+                        )}
+                    </div>
                     <p>Layaway plan</p>
                     {/* <span>
                         <p>Festival: </p><p className="content">{localStorage.getItem("festival")}</p>

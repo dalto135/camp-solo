@@ -1,0 +1,22 @@
+p {
+    border: None;
+}
+
+.pink {
+    border: 1px solid var(--purple);
+    border-radius: 12px;
+    padding: 0px 3px;
+    margin: 6px 3px;
+}
+
+@media screen and (max-width: 980px) {
+    #contactMe a {
+        margin: 0px 3px 6px 3px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    #contactMeContent {
+        flex-direction: column;
+    }
+}

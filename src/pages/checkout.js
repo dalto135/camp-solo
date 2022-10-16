@@ -2,7 +2,9 @@ import React from 'react';
 import './pages.css';
 import './checkout.css';
 import { Link } from 'react-router-dom';
+import CartItem from '../components/cartItem';
 import LayawayPlan from '../components/layawayPlan';
+
 
 function Checkout() {
 
@@ -75,6 +77,8 @@ function Checkout() {
         }
     ];
 
+    
+
     return (
         <div>
             <section className="page" id="aboutUs">
@@ -83,7 +87,17 @@ function Checkout() {
                 </div>
                 
                 <div className="pageContent" id="aboutUsContent">
-                    <p>Content here</p>
+                    {JSON.parse(localStorage.getItem("cart"))?.length ? (
+                        JSON.parse(localStorage.getItem("cart")).map((cartItem, i) => {
+                            return (
+                                <div key={i}>
+                                    <CartItem festival={cartItem.festival} package={cartItem.package} addons={cartItem.addons} i={i}/>
+                                </div>
+                            );
+                        })
+                    ) : (
+                        <p>Your Cart is Empty</p>
+                    )}
                 </div>
             </section>
 

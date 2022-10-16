@@ -8,6 +8,26 @@
     justify-content: center;
 }
 
+.cartItem {
+    border: 1px solid var(--cloudy);
+    margin: 6px 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItem h2 {
+    border: 0px 0px 1px 0px;
+    border-color: var(--cloudy);
+    border-radius: 0px;
+    color: var(--textColor);
+}
+
+#aboutUsContent {
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
 form {
     border: None;
 }

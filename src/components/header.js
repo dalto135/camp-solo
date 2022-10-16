@@ -5,6 +5,27 @@ import './components.css';
 import './header.css';
 
 function Header({toggleTheme}) {
+
+    // const userData = useContext(UserContext);
+    // console.log('userData');
+    // console.log(userData);
+
+    // function logOut() {
+    //     API.logout()
+    //     .then(user => {
+    //     // console.log(user);
+    //     document.location.replace('/');
+    //     })
+    //     .catch(err => console.log(err.message));
+    // }
+
+    let loggedIn = false;
+
+    function logOut(loggedIn) {
+        loggedIn = false;
+        // document.location.replace('/');
+    }
+
     return (
         <div id='header-div'>
             <header>
@@ -21,6 +42,12 @@ function Header({toggleTheme}) {
                     <Link to='/supportus'>Support Us</Link>
                     <Link to='/photogallery'>Photo Gallery</Link>
                     <Link to='/checkout'>Your Cart</Link>
+                    {!loggedIn
+                    ? <Link to='/login'>Login/Sign up</Link>
+                    : <div>
+                        <button onClick={logOut(loggedIn)}>Log out</button>
+                        <Link to='/userpage'>Account</Link>
+                    </div>}
                 </div>
 
                 {/* <div id="lightDark">
